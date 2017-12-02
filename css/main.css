@@ -1,0 +1,12 @@
+h2 {
+    text-shadow: 2px 2px 0 lightgray;
+}
+
+.sys-img-profile {
+    box-shadow: 0 0 5px gray;
+    border-radius: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
