@@ -1,13 +1,13 @@
-![alpha](https://img.shields.io/badge/version-alpha-orange.svg)
+![alpha](https://img.shields.io/badge/version-v2--alpha-orange.svg)
 
 The website of my portfolio.
 
-Domain is naba.biz  
+Domain naba.biz is provided by onamae.com .  
 https://naba.biz/
 
-Hosted on github.io  
-https://naba0123.github.io
+The website hosted on github.io .  
+https://naba0123.github.io/
 
 ---
 
-Now version is alpha.
+
