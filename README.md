@@ -1,3 +1,13 @@
+https://img.shields.io/badge/version-alpha-orange.svg
+
+The website of my portfolio.
+
+Domain is naba.biz  
+https://naba.biz/
+
+Hosted on github.io  
 https://naba0123.github.io
 
-template by https://github.com/BlackrockDigital/startbootstrap-resume
+Now version is v2 alpha.
+
+---
