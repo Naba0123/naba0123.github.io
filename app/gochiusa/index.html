@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="ご注文はうさぎですか？,ごちうさ,ご注文,1,ご,何話,何羽">
+  <meta name="description" content="次のごちうさがいつ放映なのかひと目で分かります。">
+  <meta name="copyright" content="Copyright Euphoria Time, All Right Reserved.">
+  <title>次のご注文は何羽ですか？</title>
+  <link href="./gochiusa.css" rel="stylesheet">
+  <script type="text/javascript" src="./gochiusa.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="top">
+      <img src="./top.png" alt="top">
+    </div>
+
+    <div class="usagi">
+
+      <p>
+        次回の
+        <strong>ごちうさ？</strong>
+        は
+        <br>
+        <strong>
+          <script>
+            gochiusa(2014, 4, 10);
+          </script>
+        </strong>です。
+      </p>
+      <p>
+        <small>(第1羽 2014/4/10)</small>
+      </p>
+
+      <script>
+        gochiusa_twitter('ごちうさ？', 'gochiusa');
+      </script>
+      <script>
+        ! function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        }(document, 'script', 'twitter-wjs');
+      </script>
+
+      <hr>
+
+      <p>
+          次回の
+          <strong>ごちうさ？？</strong>
+          は
+          <br>
+          <strong>
+              <script>
+                  gochiusa(2015, 10, 10);
+              </script>
+          </strong>です。
+      </p>
+      <p>
+          <small>(第1羽 2015/10/10)</small>
+      </p>
+
+      <script>
+          gochiusa_twitter('ごちうさ？？', 'gochiusa');
+      </script>
+      <script>
+          ! function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0],
+                  p = /^http:/.test(d.location) ? 'http' : 'https';
+              if (!d.getElementById(id)) {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = p + '://platform.twitter.com/widgets.js';
+                  fjs.parentNode.insertBefore(js, fjs);
+              }
+          }(document, 'script', 'twitter-wjs');
+      </script>
+
+
+    </div>
+
+    <div class="footer">
+      <p>Powered by
+        <a href="http://naba.biz/">naba.biz</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: #451a09;
+}
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top {
+    background-color: #451a09;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    text-shadow: 0px 0px 10px lightgray;
+    letter-spacing: 0.1em;
+}
+h2 {
+    padding-bottom: 10px;
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 10px lightgray;
+    border-bottom: 1px solid gray;
+    letter-spacing: 0.1em;
+}
+hr {
+    margin: 30px 0px;
+    border: 0px solid black;
+    border-bottom: 1px dotted gray;
+}
+
+/* usagi */
+.usagi {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffdd;
+}
+.usagi h3 {
+    letter-spacing: 0.1em;
+    border-bottom: 1px dashed gray;
+    text-shadow: 0px 0px 3px rgb(145, 219, 255);
+}
+.usagi strong {
+    letter-spacing: 0.1em;
+    text-shadow: 0px 0px 2px lightgray;
+    font-size: x-large;
+}
+
+/* version */
+.version {
+    margin-top: 0px;
+}
+.version small a {
+    color: #451a09;
+}
+
+/* twitter */
+.twitter {
+    width: 400px;
+    margin: 0px auto;
+}
+
+/* footer */
+.footer {
+    padding: 10px;
+    background-color: #451a09;
+}
+.footer p {
+    color: #ffffcc;
+    margin: 0px;
+    font-size: small;
+}
+.footer p a {
+    color: #ffffcc;
+}
