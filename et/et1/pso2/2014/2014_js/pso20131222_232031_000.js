@@ -1,0 +1,1 @@
+﻿document.write('<th id="picture_text"><a href="2014_img/pso20131222_232031_000.png" data-lightbox="2014" title="ディスクドロップ多すぎワロタ" class="pso2"><img src="2014_img/pso20131222_232031_000(1).png" alt="クリスマスとディスク" class="thum"></a>2014 /  2 / 15<br>クリスマスとディスク</th>')

@@ -1,0 +1,1 @@
+﻿document.write('<img class="bg" src="../../img/img.jpg" alt="">')

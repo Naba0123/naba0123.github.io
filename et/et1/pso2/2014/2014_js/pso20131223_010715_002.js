@@ -1,0 +1,1 @@
+﻿document.write('<th id="picture_text"><a href="2014_img/pso20131223_010715_002.png" data-lightbox="2014" title="見つかった時の笑い様" class="pso2"><img src="2014_img/pso20131223_010715_002(1).png" alt="かくれんぼ" class="thum"></a>2014 /  2 / 15<br>かくれんぼ</th>')

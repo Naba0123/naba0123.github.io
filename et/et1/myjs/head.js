@@ -1,0 +1,1 @@
+﻿document.write('<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Home - Euphoria Time</title><link href="css/bootstrap.min.css" rel="stylesheet"><link href="css/main.css" rel="stylesheet"><link href="css/botton.css" rel="stylesheet">')

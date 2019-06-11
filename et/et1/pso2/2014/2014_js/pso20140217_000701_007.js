@@ -1,0 +1,1 @@
+﻿document.write('<th id="picture_text"><a href="2014_img/pso20140217_000701_007.png" data-lightbox="2014" title="を倒している人たち" class="pso2"><img src="2014_img/pso20140217_000701_007(1).png" alt="ダークファルス" class="thum"></a>2014 /  2 / 17<br>ダークファルス</th>')

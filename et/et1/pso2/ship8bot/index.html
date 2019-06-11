@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Euphoria Time</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/botton.css" rel="stylesheet">
+  </head>
+  <body>
+  
+    <!-- background -->
+    <script src="../pso2_background.js"></script>
+
+
+    <!-- Topbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div id="topbar">
+        <div class="navbar-header">
+          <button class="navbar-toggle" data-toggle="collapse" data-target=".target">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="../../index.html" class="navbar-brand"><i class="glyphicon glyphicon-th"></i> Euphoria Time</a>
+        </div>
+        <div class="collapse navbar-collapse target">
+          <ul class="nav navbar-nav">
+            <li><a href="../../index2.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+            <li><a href="../../about.html"><i class="glyphicon glyphicon-user"></i> About Us</a></li>
+            <li><a href="../2014/2014_01.html"><i class="glyphicon glyphicon-picture"></i> PSO2 Pictures</a></li>
+            <li><a href="../../contact.html"><i class="glyphicon glyphicon-envelope"></i> Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- footer -->
+    <script src="../../myjs/footer.js"></script>
+    
+    <div id="content">
+      <div id="box">
+        <!-- 実際の中身はここよ -->
+        
+        <h1 id="box_text"><i class="glyphicon glyphicon-cloud"></i> PSO2 Ship8 Message Bot</h1>
+        <p id="box_text_main">
+          PSO2 ship8のメッセージログを5分置きにスクリーンショットをして公開してます。<br>
+          緊急クエスト来ないかなーとか、運営からのコメントないかなーとか見ます。<br>
+          サーバのメンテ中も稼働していますが、PSO2は落としているので恐らく青い画像が出ます。<br>
+          その後のログイン作業は手動。遅れたらごめんなさい。<br>
+          とりあえずβテスト中。
+        </p>
+        <div class="alert alert-danger" style="margin-left:30px; margin-right:30px;">
+          <p id="box_text_main" style="margin-top:-10px; margin-bottom:-10px;">
+            画像を上書きしているため、何度もこのページに訪れるとキャッシュを表示してしまう可能性が高いです。<br>
+            画像下の「取得日時」を確認し、情報が古い場合はブラウザの更新ボタンを押してください。
+          </p>
+        </div>
+        <div class="alert alert-info" style="margin-left:30px; margin-right:30px;">
+          <h4 id="box_text" style="margin-bottom: 10px;"><i class="glyphicon glyphicon-wrench"></i> 停止のお知らせ</h4>
+          <p id="box_text_main">
+            サーバ移動のため一時的に中断します。１週間以内には・・・。<br>
+            （2014/04/12追記）新環境が古い環境でPSO2が起動しないので、とりあえず停止します・・・。
+          </p>
+        </div>
+
+        <!--
+        <img src="now.png" alt="now_ship8" class="thum">
+        <p style="text-align:center; margin:10px;">
+          <script src="now.js"></script>
+        </p>
+        -->
+        <h2 id="box_text" style="text-align:center; color:red;">
+          現在停止中
+        </h2>
+        
+        <hr class="main_hr">
+        
+        <h3 id="box_text"><i class="glyphicon glyphicon-flag"></i> どうやってんの？</h3>
+        <ol>
+          <li>サブ垢にてPSO2常時起動、ship8ログイン後マイルームにて放置</li>
+          <li>メッセージウィンドウの部分のみをキャプチャ＆保存</li>
+          <li>自宅サーバー（このページ）にSFTPで画像と取得日時をアップロード</li>
+        </ol>        
+　　　　　　　<p id="box_text_main">電気代上がるの楽しい✌('ω'✌ )三✌('ω')✌三( ✌'ω')✌</p>
+
+        <hr class="main_hr">
+        
+        <h3 id="box_text"><i class="glyphicon glyphicon-warning-sign"></i> よくある質問</h3>
+        <ul><li>怒られないの？</li></ul>
+        <p class="qaa">怒られたらやめます。あまり広めないでください。</p>
+        <ul><li>キャラクター（プレイヤーID）おせーて</li></ul>
+        <p class="qaa">教えますん。</p>
+        <ul><li>電気代かからない？</li></ul>
+        <p class="qaa">ノーパソでやってるのでそこまでお金はかからないはず…。<br>プレイもままならないぐらいのスペックのノーパソです（チュートリアルのカルターゴ戦で落ちた）。</p>
+        <ul><li>ソースコードはよ</li></ul>
+        <p class="qaa">グーグル先生に頼ったので自分であまり作ってないです。</p>
+        <ul><li>わざわざキャプチャしなくても、ログの差分でいけない？</li></ul>
+        <p class="qaa">運営チャットのログが見当たらない…。</p>
+        <ul><li>折角botなんだから、キャプチャ画像Twitterにアップしないの？</li></ul>
+        <p class="qaa">目立ちたくないのでしません。このページを見てね。</p>
+        <ul><li>動いてないよ（その他不具合）</li></ul>
+        <p class="qaa">しばらく家を外す（週１の手動作業が出来ない）場合にはアナウンスします。<br>それ以外で不具合がある場合には遠慮なく<a href="https://twitter.com/pen_yumeno38" target="_blank"">Twitter</a>までお知らせください。</p>
+
+　　　　　　　<hr class="main_hr">
+        
+        <h3 id="box_text"><i class="glyphicon glyphicon-send"></i> この後どうするの？</h3>
+        <p id="box_text_main">
+          画像を比べて、何かアナウンスがあった場合にはメール通知とか、したいよね。<br>
+        </p>
+        
+        <hr class="main_hr">
+        
+        <h3 id="box_text"><i class="glyphicon glyphicon-info-sign"></i> 更新履歴</h3>
+        <div style="margin-right:20px; margin-left:20px;">
+          <table class="table table-condensed table-hover">
+            <thead>
+              <tr id="box_text"><th>Date</th><th>Contents</th></tr>
+            </thead>
+            <tbody>
+              <tr><th>2014 / 02 / 26</th><th>βテスト開始。ってか今日メンテか…。</th></tr>
+              <tr><th>2014 / 04 / 05</th><th>転送方式をFTPからSFTPに切り替えて再開。</th></tr>
+              <tr><th>2014 / 04 / 12</th><th>新環境でPSO2が動かないので停止。</th></tr>
+            </tbody>
+          </table>
+        </div>
+
+        
+      </div>
+    </div>
+    
+    <script src="../../myjs/jquery.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+  </body>
+</html>
