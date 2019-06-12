@@ -1,0 +1,332 @@
+﻿
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- HTML head -->
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon">
+
+<!-- Stylesheet -->
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../lib/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../css/main.css" rel="stylesheet">
+<link href="../css/slides.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+
+<!-- SlidesJS < slidesjs.com > -->
+<script src="../lib/SlidesJS-3/jquery.slides.js"></script>
+<script>
+  $(function(){
+    $("#slides").slidesjs({
+      width: 1170,
+      height: 500,
+      navigation: {
+        active: false,
+      },
+      play: {
+        auto: true,
+        pauseOnHover: true,
+        restartDelay: 2500
+      },
+      effect: {
+        slide: {
+          // Slide effect settings.
+          speed: 600
+            // [number] Speed in milliseconds of the slide animation.
+        }
+      }
+    });
+    $('.slidesjs-pagination-item a').click(function() {
+      $('a.slidesjs-play').click();
+    });
+  });
+</script>
+
+<!-- lightbox　-->
+<script src="../lib/lightbox/js/lightbox.min.js"></script>
+<link href="../lib/lightbox/css/lightbox.css" rel="stylesheet">
+
+<!-- title -->
+<title>Information - Euphiria Time</title>
+  <style type="text/css">
+    #site {
+      padding-top: 40px;
+      margin-top: -40px;
+    }
+    #pen {
+      padding-top: 40px;
+      margin-top: -40px;
+    }
+    #miso {
+      padding-top: 40px;
+      margin-top: -40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  ﻿<nav class="navbar navbar-default navbar-fixed-top nav-shadow" role="navigation">
+  <div class="container">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".target">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../">
+        <img src="../img/main/logo.png" alt="" class="img-responsive" style="max-height:32px; margin-top:-7px; margin-right:10px; float:left">Euphoria Time
+      </a>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse target">
+    
+      <ul class="nav navbar-nav">
+        <!-- Left menu -->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- Right menu -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list-alt"></span> Information <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="../information/" class="list-widelink multi-list-page">
+              <span class="glyphicon glyphicon-list-alt"></span> Information Page</a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="../information/#site" class="list-widelink">
+              <span class="dropdown-header notbr">サイトの概要や自宅サーバーについて</span>
+              <span class="glyphicon glyphicon-home"></span> About Euphoria Time</a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#" class="list-widelink">
+              <span class="dropdown-header notbr">プログラム・音楽　担当</span>
+              <span class="glyphicon glyphicon-user"></span> Naba</a>
+            </li>
+            <li class="divider"></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-book"></span> Contents <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="row multi-list" style="margin: 0px;">
+                <ul class="list-unstyled col-sm-6 col-xs-12" style="padding: 0px;">
+                  <li class="divider"></li>
+                  <li><a href="../contents/#main" class="list-widelink multi-list-page">
+                    <span class="glyphicon glyphicon-book"></span> Main Contents Page</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="../contents/games/" class="list-widelink">
+                    <span class="dropdown-header notbr">同人ゲーム製作</span>
+                    <span class="glyphicon glyphicon-pencil"></span> Games</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="../contents/music/" class="list-widelink">
+                    <span class="dropdown-header notbr">自作曲</span>
+                    <span class="glyphicon glyphicon-headphones"></span> Music</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="../contents/illustration/" class="list-widelink">
+                    <span class="dropdown-header notbr">製作イラスト</span>
+                    <span class="glyphicon glyphicon-picture"></span> Illustration</a>
+                  <li class="divider"></li>
+                  <li><a href="../contents/programs/" class="list-widelink">
+                    <span class="dropdown-header notbr">製作プログラム</span>
+                    <span class="glyphicon glyphicon-cog"></span> Programs</a>
+                  </li>
+                  <li class="divider"></li>
+                </ul>
+                <ul class="list-unstyled col-sm-6 col-xs-12" style="padding: 0px;">
+                  <li class="divider"></li>
+                  <li><a href="../contents/#sub" class="list-widelink multi-list-page">
+                    <span class="glyphicon glyphicon-book"></span> Sub Contents Page</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="../contents/pictures/" class="list-widelink">
+                    <span class="dropdown-header notbr">写真置き</span>
+                    <span class="glyphicon glyphicon-camera"></span> Pictures</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="../contents/pso2/" class="list-widelink">
+                    <span class="dropdown-header notbr">PSO2スクリーンショット</span>
+                    <span class="glyphicon glyphicon-film"></span> PSO2 Galary</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="../contents/minecraft/" class="list-widelink">
+                    <span class="dropdown-header notbr">Minecraftサーバー</span>
+                    <i class="fa fa-cube"></i> Minecraft</a>
+                  </li>
+                  <li class="divider"></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-link"></span> Link <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="list-widelink multi-list-page">
+              <span class="glyphicon glyphicon-link"></span> Link Page</a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#" class="list-widelink">
+              <span class="dropdown-header notbr">Blog</span>
+              <i class="fa fa-wordpress"></i> Blog</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+  <!-- container -->
+  <div class="container">
+  
+    <!-- contents -->
+    <div class="contents mybox-border-shadow">
+     
+      <h1><span class="glyphicon glyphicon-list-alt"></span> Information</h1>
+      <p class="contents-text">Euphoria Timeの概要だったり、サーバー情報だったり、メンバー紹介だったり。</p>
+
+      <!-- About This Site -->
+      <div id="site">
+        <hr>
+        <h2><span class="glyphicon glyphicon-home"></span> About Euphoria Time</h2>
+        <div class="contents-text">
+          <p><strong>Euphoria Time</strong>は、同人ゲーム製作を目標にしているサークルです。</p>
+          <p>しかし、内容はゲーム制作に限っておらず、幅広くやりたいことをメンバーが公開しようとしています。</p>
+        </div>
+        <h3><span class="glyphicon glyphicon-hdd"></span> 自宅サーバー</h3>
+        <div class="row">
+          <div class="col-sm-7">
+            <div class="contents-text">
+              <p>このサイト（XXX.XX.XX）は自宅サーバーより配信されています。</p>
+              <p>サーバーの情報を記します。</p>
+              <div class="panel panel-default" style="padding:0px 10px 10px; margin-top: 15px;">
+                <table class="table panel-body">
+                  <thead>
+                    <tr>
+                      <th>Server</th>
+                      <th>2014 / 08 / 20 現在</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>CPU</td>
+                      <td>CeleronR G550 @ 2.60GHz</td>
+                    </tr>
+                    <tr>
+                      <td>Memory</td>
+                      <td>4096MB</td>
+                    </tr>
+                    <tr>
+                      <td>HDD</td>
+                      <td>640GB</td>
+                    </tr>
+                    <tr>
+                      <td>OS</td>
+                      <td>Ubuntu 14.04.5 LTS 64bit</td>
+                    </tr>
+                    <tr>
+                      <td>Web</td>
+                      <td>Apache 2.4.10</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <img src="img/server.jpg" class="img-responsive img-bsr" alt="server" style="margin:auto">
+          </div>
+        </div>
+      </div>
+      
+      <!-- Naba -->
+      <div id="pen">
+        <hr>
+        <h2><span class="glyphicon glyphicon-user"></span> Naba</h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <img src="img/pen.jpg" alt="pen" class="img-responsive img-bsr">
+          </div>
+          <div class="col-sm-8 col-md-6">
+            <div class="contents-text">
+              <p>ゲーム制作においては、主に<strong>プログラミング・楽曲</strong>をメインに担当しています。</p>
+              <p>サブコンテンツに、自作プログラムの公開などを行う予定です。</p>
+              <div class="panel panel-default link-panel">
+                <table class="table panel-body">
+                  <thead>
+                    <tr>
+                      <th>Naba Link</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><i class="fa fa-twitter"></i> Twitter</td>
+                      <td><a href="#" title="XXX">XXX</a></td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa fa-wordpress"></i> Blog</td>
+                      <td><a href="#" title="XXX">XXX</a></td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa fa-github"></i> Github</td>
+                      <td><a href="#" title="XXX">XXX</a></td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa fa-soundcloud"></i> SoundCloud</td>
+                      <td><a href="#" title="XXX">XXX</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <p>この空間には<br>
+              Twitterのタイムラインがあった</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </div> <!-- end contents -->
+
+    <!-- footer -->
+    <div class="footer mybox-border-shadow">
+  <p class="footer-text">© 2019 Euphoria Time. <span class="notbr">Desigened by <a href="https://twitter.com/pen_yumeno38" class="footer-a">Naba</a></span></p>
+</div>
+  </div> <!-- end container -->
+
+</body>
+
+</html>
+
+
+

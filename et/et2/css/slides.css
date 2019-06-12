@@ -1,0 +1,68 @@
+﻿/* SlidesJS-3 */
+#slides {
+  display: none;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contents-slides {
+  padding: 10px 10px 5px;
+}
+@media screen and (min-width: 0px) and (max-device-width: 768px) {
+  .contents-slides {
+    padding: 5px;
+  }
+}
+
+.slidesjs-navigation {
+  margin-top: 3px;
+  font-size: medium;
+  color: dimgray;
+}
+a.slidesjs-navigation:hover {
+  color: lightseagreen;
+}
+.slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+.slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+.slidesjs-pagination li a {
+  display: block;
+  width: 20px;
+  height: 0;
+  padding-top: 20px;
+  background-image: url(/img/slides/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -20px
+}
+.slidesjs-pagination li a:hover {
+  background-position: 0 -40px
+}
+
+/* add by PenNanban */
+.slides-img {
+   border-radius: 3px;
+}
+@media screen and (min-width: 0px) and (max-device-width: 768px) {
+  #slides {
+    margin-bottom: 5px;
+  }
+}
