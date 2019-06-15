@@ -1,0 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+body {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 45px 0px 40px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku  Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+}
+
+#bg img{
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1920px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  /* またはabsolute; */
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+@media screen and (max-width: 1920px){
+  #bg img {
+    left: 50%;
+    margin-left: -960px;
+  }
+}
+@media screen and (max-height: 1080px){
+  #bg img {
+    top: 50%;
+    margin-top: -540px;
+  }
+}
+
+#title {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+#tweet {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+#container {
+  margin: auto;
+  height: auto;
+  position: relative;
+}
+.container-box {
+  /* box */
+  width: 830px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-clip: padding-box;
+  border: solid 13px rgba(47, 47, 47, 0.4);
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.4);
+  /* margin */
+  padding: 25px;
+}
+.container-text {
+  margin: 0px 20px 40px;
+}
+
+#header {
+  background-color: rgba(87, 87, 87, 0.7);
+  height: 30px;
+  width: 100%;
+  z-index: 110;
+  border-bottom: thin solid #4d4d4d;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#header p {
+  letter-spacing: 0.15em;
+  line-height: 28px;
+  text-align: left;
+  font-size: x-large;
+	color: white;
+  font-style: bold;
+  margin-left: 10px;
+  font-family: 'Poiret One','メイリオ',Meiryo,cursive;
+  text-shadow: 0 0 5px #000;
+}
+#header a {
+	color: white;
+  text-decoration: none;
+}
+
+#footer {
+  height: 25px;
+  width: 100%;
+  z-index: 110;
+  background-color: rgba(87, 87, 87, 0.7);
+  border-top: thin solid #4d4d4d;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+#footer p {
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  text-align: right;
+  font-size: small;
+	color: white;
+  margin-right: 10px;
+  font-family: 'Poiret One','メイリオ',Meiryo,cursive;
+  text-shadow: 0 0 4px #000;
+}
+#footer a {
+	color: white;
+  text-decoration: none;
+}
+
+.fade {
+  margin-left:0px;
+  list-style-type: none;
+}
+
+/* image a hover */
+.img-a-white a img {
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.img-a-white a:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* text */
+h1 {
+  width: auto;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 0.2em;
+  font-size: xx-large;
+  border-color: #4d4d4d;
+  border-left-style: inherit;
+  border-left-width: inherit;
+  padding: 10px 0px 14px 15px;
+  margin: 20px 0px 30px 0px;
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.3);
+}
+
+h2 {
+  width: auto;
+  font-family: 'Poiret One','メイリオ',Meiryo,cursive;
+  letter-spacing: 0.1em;
+  font-size: x-large;
+  border-color: #4d4d4d;
+  border-left-style: inherit;
+  border-left-width: medium;
+  border-bottom-style: inherit;
+  border-bottom-width: thin;
+  padding: 2px 0px 7px 15px;
+  margin: 20px 0px 20px 0px;
+}
+
+h3 {
+  width: auto;
+  font-family: 'Poiret One','メイリオ',Meiryo,cursive;
+  letter-spacing: 0.1em;
+  font-size: large;
+  border-color: #4d4d4d;
+  border-left-style: inherit;
+  border-left-width: medium;
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+  padding: 0px 0px 6px 15px;
+  margin: 20px 15px;
+}
+
+p {
+  letter-spacing: 0.02em;
+  margin-bottom: 15px;
+  line-height: 1.5em;
+}
+
+/* link */
+.link {
+  text-decoration:none;
+}
+.link:link {
+  color: blue;
+}
+.link:visited {
+  color: blue; 
+}
+
+/* box effect */
+.shadow-box {
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.3);
+}
+.img-border {
+  border: solid 6px rgb(255, 255, 255);
+  box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.4);
+}

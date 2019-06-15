@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=0.4"> -->
+  <link href="./share/css/reset.css" rel="stylesheet">
+  <link href="./share/css/main.css" rel="stylesheet">
+  <!-- font -->
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <title>Oops! - Euphoria Time</title>
+  
+  <style>
+    table {
+      width: 100%;
+    }
+    table td {
+      text-align: center;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- background -->
+  <div id="bg">
+    <img src="./share/img/bg.jpg" alt="background">
+  </div>
+  
+  <!-- header -->
+  <div id="header">
+    <p><a href="./">Euphoria Time</a></p>
+  </div>
+  
+  <!-- container -->
+  <div id="container" class="container-box">
+    
+    <h1>Missing Page</h1>
+    <table>
+      <tr>
+        <td>
+          <p>ページが見つかりません。</p>
+          <p>入力したアドレスが正しいかどうか確認をしてください。</p>
+        </td>
+        <td style="height: 500px;">
+          <img src="./share/img/missing.png" alt="">
+        </td>
+      </tr>
+    </table>
+    
+  </div>
+  
+  <!-- footer -->
+  <div id="footer">
+    <p>2012-2015 Euphoria Time. Designed by <a href="javascript:void(0)">Naba</a>. <a href="https://naba.biz">naba.biz</a></p>
+  </div>
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  
+  <!-- More Button -->
+  <script type="text/javascript">
+    // http://half-a.net/labo/screen.html
+    function more_open(geID, geIDB1, geIDB2) { 
+      document.getElementById(geID).style.display = "block"; //文表示
+      document.getElementById(geIDB1).style.display = "none"; //ボタン1非表示
+      document.getElementById(geIDB2).style.display = "inline"; //ボタン2表示
+    }
+    function more_close(geID, geIDB1, geIDB2) {
+      document.getElementById(geID).style.display = "none"; //文非表示
+      document.getElementById(geIDB1).style.display = "inline"; //ボタン1表示
+      document.getElementById(geIDB2).style.display = "none"; //ボタン2非表示
+    }
+  </script>    
+</body>
