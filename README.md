@@ -1,3 +1,4 @@
-https://naba0123.github.io
+# naba0123.github.io
 
-template by https://github.com/BlackrockDigital/startbootstrap-resume
+* My portfolio Site.
+* Deploy to https://naba0123.net/

@@ -1,1 +1,0 @@
-﻿document.write('<th id="picture_text"><a href="2014_img/pso20140216_230359_006.png" data-lightbox="2014" title="いつかあの大舞台に立つことは出来るのかなあ" class="pso2"><img src="2014_img/pso20140216_230359_006(1).png" alt="ライブ" class="thum"></a>2014 /  2 / 17<br>ライブ</th>')

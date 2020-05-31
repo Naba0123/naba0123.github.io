@@ -1,1 +1,0 @@
-﻿document.write('<th id="picture_text"><a href="2014_img/pso20140131_153319_000.png" data-lightbox="2014" title="ここのクーナの唄泣けちゃう" class="pso2"><img src="2014_img/pso20140131_153319_000(1).png" alt="EP1ラスト直前" class="thum"></a>2014 /  2 / 15<br>EP1ラスト直前</th>')

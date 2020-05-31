@@ -1,1 +1,0 @@
-﻿document.write('<nav class="navbar navbar-inverse navbar-fixed-bottom"><div class="container"><p id="bottonbar">Copyright (C) 2012-2014 Euphoria Time. All Rights Reserved. <a href="https://naba.biz/">naba.biz</a></p></div></nav>')

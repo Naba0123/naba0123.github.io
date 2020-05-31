@@ -1,1 +1,0 @@
-﻿document.write('<th id="picture_text"><a href="2014_img/pso20140130_200802_000.png" data-lightbox="2014" title="バグです(´・ω・`)" class="pso2"><img src="2014_img/pso20140130_200802_000(1).png" alt="これ完全に入ってるよね" class="thum"></a>2014 /  2 / 15<br>これ完全に入ってるよね</th>')
