@@ -14,6 +14,9 @@ body {
   align-items: center;
   text-shadow: 0 0 0.1em lightgray;
   letter-spacing: 0.05em;
+  position: relative;
+  height: auto;
+  min-height: 100%;
 }
 
 ul, li, ol {
