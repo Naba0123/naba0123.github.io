@@ -67,3 +67,6 @@ ul.link li a {
 ul.link li i {
   font-size: 5em;
 }
+ul.link li svg {
+  height: 5em;
+}
